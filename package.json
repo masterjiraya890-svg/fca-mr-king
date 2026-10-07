@@ -1,6 +1,6 @@
 {
   "name": "fca-mrking-official-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-performance custom FCA package with built-in media downloaders & safety features for GoatBot by Roni_Mr.king",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "cheerio": "^1.0.0-rc.12",
     "crypto-js": "^4.2.0",
     "express": "^4.19.0",
-    "fb-chat-support": "latest",
+    "fb-chat-support": "*",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
     "fs-extra": "^11.2.0",
