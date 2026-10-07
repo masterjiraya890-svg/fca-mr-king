@@ -1,5 +1,5 @@
 {
-  "name": "@roni_mr.king/fca-mr-king",
+  "name": "@ronimrking/fca-mr-king",
   "version": "1.0.0",
   "description": "High-performance custom FCA package with built-in media downloaders for GoatBot",
   "main": "index.js",
