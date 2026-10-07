@@ -1,8 +1,18 @@
 {
-  "name": "@ronimrking/fca-mr-king",
+  "name": "fca-mrking-official-bot",
   "version": "1.0.0",
-  "description": "High-performance custom FCA package with built-in media downloaders for GoatBot",
+  "description": "High-performance custom FCA package with built-in media downloaders for GoatBot by Roni_Mr.king",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fca",
+    "goatbot",
+    "facebook-chat-api",
+    "downloader",
+    "mrking"
+  ],
   "author": "Roni_Mr.king",
   "license": "MIT",
   "dependencies": {
