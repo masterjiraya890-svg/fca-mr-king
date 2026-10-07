@@ -1,7 +1,7 @@
 {
   "name": "fca-mrking-official-bot",
   "version": "1.0.0",
-  "description": "High-performance custom FCA package with built-in media downloaders for GoatBot by Roni_Mr.king",
+  "description": "High-performance custom FCA package with built-in media downloaders & safety features for GoatBot by Roni_Mr.king",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,18 +11,30 @@
     "goatbot",
     "facebook-chat-api",
     "downloader",
-    "mrking"
+    "mrking",
+    "messenger-bot"
   ],
   "author": "Roni_Mr.king",
   "license": "MIT",
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.52",
     "axios": "^1.7.0",
+    "canvas": "^2.11.2",
+    "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.12",
+    "crypto-js": "^4.2.0",
     "express": "^4.19.0",
     "fb-chat-support": "latest",
+    "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.22.12",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.2.0",
     "mqtt": "^5.3.0",
     "npmlog": "^7.0.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "totp-generator": "^0.0.14",
+    "websocket-stream": "^5.5.2"
   }
 }
